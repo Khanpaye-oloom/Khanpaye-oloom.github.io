@@ -9,6 +9,7 @@
 ## 🎯 Priority 1: Core Functionality & Architecture ✅ COMPLETE
 
 ### Component Architecture ✅
+
 - [x] Create reusable HTML components
 - [x] Implement header.html component
 - [x] Implement footer.html component
@@ -20,6 +21,7 @@
 **Status:** ✅ **COMPLETE** - 24+ tests passing
 
 ### Page Refactoring ✅
+
 - [x] Refactor index.html to use components
 - [x] Refactor courses.html to use components
 - [x] Refactor grade-7.html to use components
@@ -37,6 +39,7 @@
 **Status:** ✅ **COMPLETE** - All 13 pages refactored
 
 ### Testing Framework ✅
+
 - [x] Create TEST_PRIORITY1.js test suite
 - [x] Test component loading
 - [x] Test header rendering
@@ -48,6 +51,7 @@
 **Status:** ✅ **COMPLETE** - 24 tests ✅
 
 ### Documentation ✅
+
 - [x] Create PRIORITY1_DOCUMENTATION.md
 - [x] Create FILE_INVENTORY.md
 - [x] Create ARCHITECTURE.md
@@ -61,6 +65,7 @@
 ## 🎯 Priority 2: Form Handling & Validation ✅ COMPLETE
 
 ### Form Backend Setup ✅
+
 - [x] Create Formspree account
 - [x] Get Formspree ID: f/mzzyekpv
 - [x] Test Formspree integration
@@ -70,6 +75,7 @@
 **Status:** ✅ **COMPLETE** - Formspree configured
 
 ### Form Validation ✅
+
 - [x] Create validateEmail() function
 - [x] Create validatePhone() function
 - [x] Create validateRequired() function
@@ -84,6 +90,7 @@
 **Status:** ✅ **COMPLETE** - Full validation system
 
 ### Page Updates ✅
+
 - [x] Update contact.html with Formspree endpoint
 - [x] Update contact.html with validation
 - [x] Update pages/contact.html with Formspree endpoint
@@ -94,6 +101,7 @@
 **Status:** ✅ **COMPLETE** - Both contact forms updated
 
 ### Testing & Documentation ✅
+
 - [x] Create PRIORITY2_FORM_VALIDATION.md
 - [x] Create PRIORITY2_FORMSPREE_INTEGRATION.md
 - [x] Create PRIORITY2_FORM_STYLING.md
@@ -111,6 +119,7 @@
 ### SEO Configuration ⏳
 
 #### Sitemap & Robots ✅
+
 - [x] Create sitemap.xml with all 12 pages
 - [x] Set proper priorities for each page
 - [x] Set change frequency per page
@@ -123,6 +132,7 @@
 **Status:** ✅ **COMPLETE** - Configuration ready
 
 #### Documentation ✅
+
 - [x] Create PRIORITY3_SEO_GUIDE.md (~600 lines)
 - [x] Create SEO_METADATA_REFERENCE.md (~400 lines)
 - [x] Create PRIORITY3_IMPLEMENTATION_PLAN.md (this checklist)
@@ -135,6 +145,7 @@
 ### Meta Tags & Social Sharing ⏳
 
 #### Meta Descriptions & Keywords ⏳
+
 - [ ] Add meta description to index.html
 - [ ] Add meta keywords to index.html
 - [ ] Add meta description to courses.html
@@ -163,6 +174,7 @@
 **Status:** ⏳ **PENDING** - 24 items (12 pages × 2)
 
 #### Open Graph Tags ⏳
+
 - [ ] Add og:title to all pages
 - [ ] Add og:description to all pages
 - [ ] Add og:image to all pages
@@ -174,6 +186,7 @@
 **Status:** ⏳ **PENDING** - 7 × 12 pages
 
 #### Twitter Card Tags ⏳
+
 - [ ] Add twitter:card to all pages
 - [ ] Add twitter:title to all pages
 - [ ] Add twitter:description to all pages
@@ -183,6 +196,7 @@
 **Status:** ⏳ **PENDING** - 5 × 12 pages
 
 #### Canonical Links ⏳
+
 - [ ] Add canonical link to index.html
 - [ ] Add canonical link to courses.html
 - [ ] Add canonical link to all grade pages
@@ -192,6 +206,7 @@
 **Status:** ⏳ **PENDING** - 12 pages
 
 #### Author & Language Tags ⏳
+
 - [ ] Add author meta tag to all pages
 - [ ] Add language meta tag to all pages
 - [ ] Add robots meta tag to all pages
@@ -201,6 +216,7 @@
 ### Structured Data (Schema.org) ⏳
 
 #### Organization Schema ⏳
+
 - [ ] Add Organization schema to index.html
 - [ ] Include name, URL, logo, contact point
 - [ ] Test with Google Rich Results
@@ -208,6 +224,7 @@
 **Status:** ⏳ **PENDING** - 1 page
 
 #### WebPage Schema ⏳
+
 - [ ] Add WebPage schema to all pages (optional)
 - [ ] Include name, description, URL
 - [ ] Test with Schema.org validator
@@ -217,6 +234,7 @@
 ### Google Analytics ⏳
 
 #### Account Setup ⏳
+
 - [ ] Create Google Analytics 4 account (if needed)
 - [ ] Create property for 0loum.ir domain
 - [ ] Get GA4 tracking ID (G-XXXXXXXXXX)
@@ -226,6 +244,7 @@
 **Status:** ⏳ **PENDING** - User action required
 
 #### Implementation ⏳
+
 - [ ] Add GA4 script to index.html
 - [ ] Add GA4 script to courses.html
 - [ ] Add GA4 script to grade-7.html
@@ -246,8 +265,9 @@
 ### Search Console Submission ⏳
 
 #### Google Search Console ⏳
+
 - [ ] Create Google Search Console account
-- [ ] Add property: https://0loum.ir
+- [ ] Add property: <https://0loum.ir>
 - [ ] Verify ownership (HTML or DNS)
 - [ ] Submit sitemap.xml
 - [ ] Monitor indexing status
@@ -257,8 +277,9 @@
 **Status:** ⏳ **PENDING** - User action required
 
 #### Bing Webmaster Tools ⏳
+
 - [ ] Create Bing Webmaster Tools account
-- [ ] Add site: https://0loum.ir
+- [ ] Add site: <https://0loum.ir>
 - [ ] Verify ownership
 - [ ] Submit sitemap.xml
 - [ ] Monitor crawl stats
@@ -269,6 +290,7 @@
 ### Testing & Validation ⏳
 
 #### Meta Tag Testing ⏳
+
 - [ ] Test with Facebook Sharing Debugger
 - [ ] Test with Twitter Card Validator
 - [ ] Verify all descriptions display
@@ -279,6 +301,7 @@
 **Status:** ⏳ **PENDING** - After meta tag implementation
 
 #### Structured Data Testing ⏳
+
 - [ ] Test with Google Rich Results Test
 - [ ] Test with Schema.org Validator
 - [ ] Validate Organization schema
@@ -288,6 +311,7 @@
 **Status:** ⏳ **PENDING** - After schema implementation
 
 #### Performance Testing ⏳
+
 - [ ] Test page load speed with PageSpeed
 - [ ] Check Core Web Vitals
 - [ ] Test mobile performance
@@ -297,6 +321,7 @@
 **Status:** ⏳ **PENDING** - After all updates
 
 #### Analytics Testing ⏳
+
 - [ ] Verify GA script loads on all pages
 - [ ] Check real-time analytics
 - [ ] Verify page views tracked
@@ -332,6 +357,7 @@
 ## 🚀 Next Steps
 
 ### Immediate (This Session)
+
 1. ✅ Created PRIORITY3_SEO_GUIDE.md
 2. ✅ Created SEO_METADATA_REFERENCE.md
 3. ✅ Updated sitemap.xml
@@ -340,12 +366,14 @@
 6. **→ Ready to add meta tags to all pages**
 
 ### Short-term (Next 2 hours)
+
 1. Add meta descriptions & keywords to all 12 pages
 2. Add Open Graph tags to all 12 pages
 3. Add Twitter Card tags to all 12 pages
 4. Test with social sharing debuggers
 
 ### Medium-term (Next 2 days)
+
 1. Add structured data (JSON-LD) to pages
 2. Set up Google Analytics account
 3. Add GA script to all pages
@@ -353,6 +381,7 @@
 5. Submit to Bing Webmaster Tools
 
 ### Long-term (Ongoing)
+
 1. Monitor search console for issues
 2. Monitor analytics dashboard
 3. Optimize underperforming pages
@@ -363,17 +392,20 @@
 ## 📚 Documentation Files
 
 ### Priority 1
+
 - ✅ PRIORITY1_DOCUMENTATION.md
 - ✅ FILE_INVENTORY.md
 - ✅ ARCHITECTURE.md
 
 ### Priority 2
+
 - ✅ PRIORITY2_FORM_VALIDATION.md
 - ✅ PRIORITY2_FORMSPREE_INTEGRATION.md
 - ✅ PRIORITY2_FORM_STYLING.md
 - ✅ PRIORITY2_FINAL_SUMMARY.md
 
 ### Priority 3
+
 - ✅ PRIORITY3_SEO_GUIDE.md (~600 lines)
 - ✅ SEO_METADATA_REFERENCE.md (~400 lines - with exact metadata for all 12 pages)
 - ✅ PRIORITY3_IMPLEMENTATION_PLAN.md (this file)
@@ -383,6 +415,7 @@
 ## 🎯 Success Criteria
 
 ### Priority 1: Core ✅
+
 - ✅ All 13 pages use component architecture
 - ✅ Component loading system works
 - ✅ All components render correctly
@@ -390,6 +423,7 @@
 - ✅ Documentation complete
 
 ### Priority 2: Forms ✅
+
 - ✅ Form validation working on all fields
 - ✅ Formspree integration functional
 - ✅ Error/success feedback visible
@@ -397,6 +431,7 @@
 - ✅ Form styling polished
 
 ### Priority 3: SEO
+
 - ⏳ All pages have meta descriptions
 - ⏳ All pages have keywords
 - ⏳ Social sharing configured
@@ -409,19 +444,22 @@
 ## 📞 Resources & Tools
 
 ### Documentation to Review
+
 1. `PRIORITY3_SEO_GUIDE.md` - Full implementation guide
 2. `SEO_METADATA_REFERENCE.md` - Copy-paste ready metadata
 
 ### Testing Tools
-- Facebook Debugger: https://developers.facebook.com/tools/debug/
-- Twitter Validator: https://cards-dev.twitter.com/validator
-- Google Rich Results: https://search.google.com/test/rich-results
-- Schema Validator: https://validator.schema.org/
+
+- Facebook Debugger: <https://developers.facebook.com/tools/debug/>
+- Twitter Validator: <https://cards-dev.twitter.com/validator>
+- Google Rich Results: <https://search.google.com/test/rich-results>
+- Schema Validator: <https://validator.schema.org/>
 
 ### Accounts to Set Up
-- Google Search Console: https://search.google.com/search-console
-- Bing Webmaster: https://www.bing.com/webmasters
-- Google Analytics 4: https://analytics.google.com
+
+- Google Search Console: <https://search.google.com/search-console>
+- Bing Webmaster: <https://www.bing.com/webmasters>
+- Google Analytics 4: <https://analytics.google.com>
 
 ---
 

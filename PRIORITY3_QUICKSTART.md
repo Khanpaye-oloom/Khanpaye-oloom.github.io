@@ -9,6 +9,7 @@
 ## 🚀 Get Started Now
 
 ### Step 1: Open Your Reference Document
+
 ```
 Open: SEO_METADATA_REFERENCE.md
 This contains all the metadata ready to copy-paste
@@ -19,6 +20,7 @@ This contains all the metadata ready to copy-paste
 **Location:** `e:\GitM0nt\0loum.ir\index.html`
 
 **What to do:**
+
 1. Open index.html in your editor
 2. Find the `<head>` section
 3. Locate this line: `<meta name="viewport" content="width=device-width, initial-scale=1">`
@@ -36,6 +38,7 @@ This contains all the metadata ready to copy-paste
 Quick checklist of pages to update:
 
 ### Priority (Do These First)
+
 - [ ] index.html (homepage - most important)
 - [ ] courses.html (course listing)
 - [ ] grade-7.html (main content page)
@@ -43,16 +46,19 @@ Quick checklist of pages to update:
 - [ ] grade-9.html (main content page)
 
 ### Standard (Do These Next)
+
 - [ ] contact.html (user-facing form)
 - [ ] pages/about.html (information page)
 - [ ] pages/contact.html (alternate contact page)
 
 ### Important (Do These After)
+
 - [ ] faq.html (help/support)
 - [ ] terms.html (legal)
 - [ ] login.html (user access)
 
 ### Final (Do These Last)
+
 - [ ] lesson-player.html (utility page)
 - [ ] 404.html (error page)
 
@@ -63,6 +69,7 @@ Quick checklist of pages to update:
 ## 🔍 What Gets Added to Each Page
 
 ### Meta Tags Section
+
 Every page gets these meta tags in the `<head>`:
 
 ```html
@@ -98,6 +105,7 @@ Every page gets these meta tags in the `<head>`:
 ## 📁 File Locations Quick Reference
 
 ### Files You'll Edit
+
 ```
 index.html          → Root directory
 courses.html        → Root directory
@@ -114,6 +122,7 @@ pages/about.html    → pages/ directory
 ```
 
 ### Files You'll Reference
+
 ```
 SEO_METADATA_REFERENCE.md       → Copy metadata from here
 PRIORITY3_SEO_GUIDE.md          → Reference guide if needed
@@ -121,6 +130,7 @@ PRIORITY3_IMPLEMENTATION_PLAN.md → Detailed checklist
 ```
 
 ### Files Already Updated ✅
+
 ```
 sitemap.xml         → Already populated ✅
 robots.txt          → Already corrected ✅
@@ -130,7 +140,7 @@ robots.txt          → Already corrected ✅
 
 ## ✂️ Copy-Paste Instructions
 
-### For Each Page:
+### For Each Page
 
 1. **Open SEO_METADATA_REFERENCE.md**
    - Find the section for your page (e.g., "### index.html")
@@ -156,8 +166,9 @@ robots.txt          → Already corrected ✅
 ### Quick Test (30 seconds per page)
 
 **Option 1: Facebook Debugger**
-1. Go to: https://developers.facebook.com/tools/debug/
-2. Enter your page URL (e.g., https://0loum.ir/)
+
+1. Go to: <https://developers.facebook.com/tools/debug/>
+2. Enter your page URL (e.g., <https://0loum.ir/>)
 3. Click "Scrape Again"
 4. Verify:
    - Title shows correctly
@@ -166,7 +177,8 @@ robots.txt          → Already corrected ✅
    - No errors
 
 **Option 2: Twitter Card Validator**
-1. Go to: https://cards-dev.twitter.com/validator
+
+1. Go to: <https://cards-dev.twitter.com/validator>
 2. Enter your page URL
 3. Click "Check"
 4. Verify:
@@ -180,6 +192,7 @@ robots.txt          → Already corrected ✅
 ## ⏱️ Time Estimates
 
 ### Per Page
+
 - Open file: 30 seconds
 - Copy metadata: 30 seconds
 - Paste into file: 30 seconds
@@ -188,6 +201,7 @@ robots.txt          → Already corrected ✅
 - **Total: 3-5 minutes per page**
 
 ### Overall
+
 - 12 pages × 4 minutes = **48 minutes**
 - Testing: 12 pages × 1 minute = **12 minutes**
 - Buffer/fixes: 10 minutes
@@ -224,19 +238,22 @@ robots.txt          → Already corrected ✅
 
 After adding meta tags, you should see:
 
-### On Facebook/LinkedIn When Sharing:
+### On Facebook/LinkedIn When Sharing
+
 - ✅ Page title appears as headline
 - ✅ Description shows below title
 - ✅ Image displays (if available)
 - ✅ URL appears at bottom
 
-### On Twitter When Sharing:
+### On Twitter When Sharing
+
 - ✅ Title appears
 - ✅ Description visible
 - ✅ Large image displays
 - ✅ Professional appearance
 
-### In Google Search:
+### In Google Search
+
 - ✅ Meta description appears below URL
 - ✅ Proper formatting
 - ✅ No duplicate descriptions
@@ -250,6 +267,7 @@ After adding meta tags, you should see:
 **Problem:** Facebook Debugger shows old data
 
 **Solution:**
+
 1. Click "Scrape Again" button
 2. Wait 10 seconds
 3. Refresh the page
@@ -258,6 +276,7 @@ After adding meta tags, you should see:
 **Problem:** Text appears garbled/wrong encoding
 
 **Solution:**
+
 1. Check file is saved as UTF-8
 2. Verify Persian text copied correctly
 3. Resave file with UTF-8 encoding
@@ -265,6 +284,7 @@ After adding meta tags, you should see:
 **Problem:** Special characters appear as question marks
 
 **Solution:**
+
 1. Add this at the very top of `<head>`: `<meta charset="UTF-8">`
 2. Should be already there in most pages
 3. Ensure file is UTF-8 encoded
@@ -276,15 +296,18 @@ After adding meta tags, you should see:
 After implementation, test on:
 
 ### Mobile
+
 - [ ] iOS Safari
 - [ ] Android Chrome
 
 ### Desktop
+
 - [ ] Chrome
 - [ ] Firefox
 - [ ] Edge
 
 ### Sharing Tests
+
 - [ ] Facebook share
 - [ ] Twitter share
 - [ ] LinkedIn share
@@ -292,9 +315,9 @@ After implementation, test on:
 
 ---
 
-## 🎊 You're All Set!
+## 🎊 You're All Set
 
-### To Get Started Right Now:
+### To Get Started Right Now
 
 1. **Open:** SEO_METADATA_REFERENCE.md
 2. **Start with:** index.html
@@ -302,14 +325,16 @@ After implementation, test on:
 4. **Time:** 3-5 minutes per page
 5. **Total:** ~1 hour to complete all 12 pages
 
-### After Phase 2 Complete:
+### After Phase 2 Complete
 
 Next: Priority 3 Phase 3
+
 - Create Google Analytics account
 - Get tracking ID
 - Add GA script to all pages (30 minutes)
 
 Then: Priority 3 Phase 4
+
 - Submit to Google Search Console
 - Submit to Bing Webmaster Tools (25 minutes)
 
@@ -318,26 +343,30 @@ Then: Priority 3 Phase 4
 ## 📚 Quick Reference Links
 
 **Documentation**
+
 - Full Guide: PRIORITY3_SEO_GUIDE.md
 - Metadata Copy-Paste: SEO_METADATA_REFERENCE.md
 - Checklist: PRIORITY3_IMPLEMENTATION_PLAN.md
 
 **Testing Tools**
-- Facebook: https://developers.facebook.com/tools/debug/
-- Twitter: https://cards-dev.twitter.com/validator
-- Google Rich: https://search.google.com/test/rich-results
-- Schema: https://validator.schema.org/
+
+- Facebook: <https://developers.facebook.com/tools/debug/>
+- Twitter: <https://cards-dev.twitter.com/validator>
+- Google Rich: <https://search.google.com/test/rich-results>
+- Schema: <https://validator.schema.org/>
 
 **Setup Accounts**
-- Google Analytics: https://analytics.google.com
-- Google Search Console: https://search.google.com/search-console
-- Bing Webmaster: https://www.bing.com/webmasters
+
+- Google Analytics: <https://analytics.google.com>
+- Google Search Console: <https://search.google.com/search-console>
+- Bing Webmaster: <https://www.bing.com/webmasters>
 
 ---
 
 ## 🚀 Ready?
 
 **Start Now:**
+
 1. Open SEO_METADATA_REFERENCE.md
 2. Open index.html
 3. Copy → Paste → Save → Done!

@@ -91,6 +91,7 @@ pages/about.html        (info)
 ## 🎬 How to Use This Package
 
 ### Step 1: Review Documentation
+
 ```
 Start here → PRIORITY3_QUICKSTART.md
 Then read  → SEO_METADATA_REFERENCE.md
@@ -99,6 +100,7 @@ Track      → PROJECT_CHECKLIST.md (for status)
 ```
 
 ### Step 2: Implement Phase 2 (1 hour)
+
 ```
 For each of 12 pages:
 1. Open page in editor
@@ -111,6 +113,7 @@ For each of 12 pages:
 ```
 
 ### Step 3: Implement Phase 3 (30 minutes)
+
 ```
 1. Create Google Analytics account
 2. Get tracking ID (G-XXXXXXXXXX)
@@ -120,6 +123,7 @@ For each of 12 pages:
 ```
 
 ### Step 4: Implement Phase 4 (25 minutes)
+
 ```
 1. Create Google Search Console account
 2. Add property: https://0loum.ir
@@ -133,7 +137,7 @@ For each of 12 pages:
 
 ## 🚀 Quick Start (Right Now)
 
-### Fastest Way to Get Started:
+### Fastest Way to Get Started
 
 1. **Open:** `SEO_METADATA_REFERENCE.md`
 2. **Find:** "### index.html" section
@@ -192,6 +196,7 @@ For each of 12 pages:
 ## ✅ Implementation Checklist
 
 ### Phase 2: Meta Tags
+
 - [ ] index.html - metadata added
 - [ ] courses.html - metadata added
 - [ ] grade-7.html - metadata added
@@ -208,6 +213,7 @@ For each of 12 pages:
 - [ ] Test with Twitter Card Validator
 
 ### Phase 3: Analytics
+
 - [ ] Create Google Analytics account
 - [ ] Create property for 0loum.ir
 - [ ] Get tracking ID (G-XXXXXXXXXX)
@@ -215,8 +221,9 @@ For each of 12 pages:
 - [ ] Test real-time analytics
 
 ### Phase 4: Search Consoles
+
 - [ ] Create Google Search Console account
-- [ ] Add property: https://0loum.ir
+- [ ] Add property: <https://0loum.ir>
 - [ ] Verify ownership
 - [ ] Submit sitemap.xml
 - [ ] Create Bing Webmaster account
@@ -228,28 +235,36 @@ For each of 12 pages:
 ## 📈 Expected Results Timeline
 
 ### After Phase 2 (Meta Tags)
+
 **Week 1:** Meta tags live on all pages
+
 - ✅ Social sharing shows proper previews
 - ✅ Search results show descriptions
 - ✅ Rich snippets enabled
 - ✅ Better visual in search results
 
 ### After Phase 3 (Analytics)
+
 **Week 1:** Analytics tracking active
+
 - ✅ User behavior data collected
 - ✅ Traffic sources tracked
 - ✅ Device analytics available
 - ✅ Geographic insights visible
 
 ### After Phase 4 (Search Consoles)
+
 **Week 1-2:** Indexing monitored
+
 - ✅ Google indexing status visible
 - ✅ Bing crawl stats available
 - ✅ Mobile issues identified
 - ✅ Crawl error alerts enabled
 
 ### After 4-8 Weeks
+
 **Month 2:** SEO impact visible
+
 - ✅ Improved search rankings
 - ✅ Higher click-through rates
 - ✅ More organic traffic
@@ -260,6 +275,7 @@ For each of 12 pages:
 ## 🎯 By the Numbers
 
 ### Documentation Created
+
 ```
 5 files
 2,200+ lines
@@ -267,6 +283,7 @@ For each of 12 pages:
 ```
 
 ### Pages Optimized
+
 ```
 12 pages
 Meta descriptions: 12
@@ -277,6 +294,7 @@ Canonical links: 12
 ```
 
 ### Time to Complete
+
 ```
 Phase 2 (Meta tags): ~1 hour
 Phase 3 (Analytics): ~30 minutes
@@ -285,6 +303,7 @@ Total: ~2 hours
 ```
 
 ### Metadata Prepared
+
 ```
 All 12 pages: ✅
 All descriptions: ✅ (in Persian)
@@ -299,45 +318,52 @@ All schema.org data: ✅
 ## 🔗 Quick Links
 
 ### Documentation Files in Your Project
+
 1. **SEO_METADATA_REFERENCE.md** - Copy meta tags from here
 2. **PRIORITY3_QUICKSTART.md** - Follow quick instructions
 3. **PRIORITY3_SEO_GUIDE.md** - Read detailed explanations
 4. **PROJECT_CHECKLIST.md** - Track overall progress
 
 ### External Tools for Testing
-- Facebook: https://developers.facebook.com/tools/debug/
-- Twitter: https://cards-dev.twitter.com/validator
-- Google: https://search.google.com/test/rich-results
-- Schema: https://validator.schema.org/
+
+- Facebook: <https://developers.facebook.com/tools/debug/>
+- Twitter: <https://cards-dev.twitter.com/validator>
+- Google: <https://search.google.com/test/rich-results>
+- Schema: <https://validator.schema.org/>
 
 ### Accounts to Create
-- Analytics: https://analytics.google.com
-- Google Console: https://search.google.com/search-console
-- Bing Console: https://www.bing.com/webmasters
+
+- Analytics: <https://analytics.google.com>
+- Google Console: <https://search.google.com/search-console>
+- Bing Console: <https://www.bing.com/webmasters>
 
 ---
 
 ## 💡 Pro Tips
 
 ### For Meta Tags
+
 - Descriptions: 150-160 characters
 - Keywords: 5-10 per page
 - Unique for each page (no duplicates)
 - Natural language (not keyword stuffing)
 
 ### For Testing
+
 - Test each page after adding tags
 - Facebook: Click "Scrape Again"
 - Twitter: Check card preview
 - Verify images load correctly
 
 ### For Analytics
+
 - Wait 24 hours for first data
 - Set up goals for tracking
 - Monitor user behavior
 - Test on mobile and desktop
 
 ### For Search Consoles
+
 - Verify ownership (HTML file or DNS)
 - Submit sitemap (already prepared!)
 - Monitor index coverage
@@ -345,9 +371,10 @@ All schema.org data: ✅
 
 ---
 
-## 🎊 You're All Set!
+## 🎊 You're All Set
 
 ### What You Have
+
 ✅ Complete documentation  
 ✅ All metadata prepared  
 ✅ Configuration files ready  
@@ -356,11 +383,13 @@ All schema.org data: ✅
 ✅ Testing procedures included  
 
 ### What You Need to Do
+
 ⏳ Implement Phase 2 (1 hour)  
 ⏳ Implement Phase 3 (30 min)  
 ⏳ Implement Phase 4 (25 min)  
 
 ### Total Time Required
+
 ~2 hours + 24 hours for Google to index
 
 ---
@@ -368,18 +397,21 @@ All schema.org data: ✅
 ## 🚀 Ready to Go?
 
 ### Option A: Start Immediately
+
 1. Open SEO_METADATA_REFERENCE.md
 2. Start with index.html
 3. Copy → Paste → Save
 4. Takes 5 minutes, then move to next page
 
 ### Option B: Follow the Guide
+
 1. Read PRIORITY3_QUICKSTART.md first
 2. Understand the process
 3. Then implement all 12 pages
 4. Takes 1 hour total
 
 ### Option C: Deep Dive
+
 1. Read PRIORITY3_SEO_GUIDE.md thoroughly
 2. Understand why each tag matters
 3. Implement strategically
@@ -389,13 +421,15 @@ All schema.org data: ✅
 
 ## 📞 Need Help?
 
-### All answers are in:
+### All answers are in
+
 - **Quick start?** → PRIORITY3_QUICKSTART.md
 - **Where's the metadata?** → SEO_METADATA_REFERENCE.md
 - **Why this matters?** → PRIORITY3_SEO_GUIDE.md
 - **Overall status?** → PROJECT_CHECKLIST.md
 
 ### Testing questions?
+
 - **Facebook not showing?** → Check PRIORITY3_QUICKSTART.md troubleshooting
 - **Text looks wrong?** → Check file encoding (UTF-8)
 - **Old data showing?** → Click "Scrape Again" in debugger
@@ -407,6 +441,7 @@ All schema.org data: ✅
 **Priority 3 Phase 1: ✅ 100% COMPLETE**
 
 Everything you need to optimize your SEO is ready:
+
 - Documentation ✅
 - Metadata ✅
 - Configuration ✅
