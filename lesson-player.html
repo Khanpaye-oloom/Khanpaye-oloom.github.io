@@ -27,41 +27,84 @@
     }
 
     /* ====== Base Styles ====== */
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: "Vazirmatn", sans-serif; background: var(--bg-light); color: var(--text-dark); line-height: 1.8; -webkit-font-smoothing: antialiased; }
-    .wrap { max-width: 1280px; margin: 0 auto; padding: 0 20px; }
-    a { text-decoration: none; color: inherit; }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Vazirmatn", sans-serif;
+      background: var(--bg-light);
+      color: var(--text-dark);
+      line-height: 1.8;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .wrap {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
 
     /* ====== Simplified Header ====== */
     .player-header {
-        padding: 16px 0;
-        background: var(--bg-white);
-        border-bottom: 1px solid var(--border-color);
+      padding: 16px 0;
+      background: var(--bg-white);
+      border-bottom: 1px solid var(--border-color);
     }
+
     .player-header-inner {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
-    .brand { display: flex; align-items: center; gap: 12px; font-weight: 700; }
-    .brand .mark { width: 40px; height: 40px; border-radius: 10px; display: grid; place-items: center; background: var(--primary); color: #fff; font-weight: 800; }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 700;
+    }
+
+    .brand .mark {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      display: grid;
+      place-items: center;
+      background: var(--primary);
+      color: #fff;
+      font-weight: 800;
+    }
+
     .btn-back {
-        background: var(--primary-light);
-        color: var(--primary);
-        padding: 8px 16px;
-        border-radius: 10px;
-        font-weight: 500;
-        transition: var(--transition);
+      background: var(--primary-light);
+      color: var(--primary);
+      padding: 8px 16px;
+      border-radius: 10px;
+      font-weight: 500;
+      transition: var(--transition);
     }
-    .btn-back:hover { background: var(--primary); color: #fff; }
+
+    .btn-back:hover {
+      background: var(--primary);
+      color: #fff;
+    }
 
     /* ====== Player Layout ====== */
     .player-layout {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 32px;
-        padding-top: 32px;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 32px;
+      padding-top: 32px;
     }
+
     @media (min-width: 1024px) {
       .player-layout {
         grid-template-columns: 3fr 1fr;
@@ -70,112 +113,140 @@
 
     /* ====== Video Player & Info ====== */
     .video-main {
-        background: var(--bg-white);
-        border-radius: var(--radius-lg);
-        box-shadow: var(--shadow);
-        overflow: hidden;
+      background: var(--bg-white);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow);
+      overflow: hidden;
     }
+
     .video-player-wrapper {
-        position: relative;
-        width: 100%;
-        background-color: #000;
-        aspect-ratio: 16 / 9; /* Modern CSS for responsive video */
+      position: relative;
+      width: 100%;
+      background-color: #000;
+      aspect-ratio: 16 / 9;
+      /* Modern CSS for responsive video */
     }
+
     .video-player-wrapper iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
     }
+
     .lesson-info {
-        padding: 24px;
+      padding: 24px;
     }
+
     .lesson-info h1 {
-        font-size: 1.8rem;
-        font-weight: 800;
-        margin-bottom: 8px;
+      font-size: 1.8rem;
+      font-weight: 800;
+      margin-bottom: 8px;
     }
+
     .lesson-info p {
-        color: var(--text-light);
-        margin-bottom: 24px;
+      color: var(--text-light);
+      margin-bottom: 24px;
     }
 
     /* ====== Downloads Section ====== */
     .downloads {
-        border-top: 1px solid var(--border-color);
-        padding-top: 24px;
+      border-top: 1px solid var(--border-color);
+      padding-top: 24px;
     }
+
     .downloads h3 {
-        font-size: 1.2rem;
-        font-weight: 700;
-        margin-bottom: 16px;
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin-bottom: 16px;
     }
+
     .download-link {
-        display: flex;
-        align-items: center;
-        gap: 12px;
-        background: var(--bg-light);
-        padding: 12px;
-        border-radius: var(--radius-md);
-        margin-bottom: 12px;
-        border: 1px solid var(--border-color);
-        transition: var(--transition);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: var(--bg-light);
+      padding: 12px;
+      border-radius: var(--radius-md);
+      margin-bottom: 12px;
+      border: 1px solid var(--border-color);
+      transition: var(--transition);
     }
+
     .download-link:hover {
-        border-color: var(--course-primary);
-        background: #fff;
+      border-color: var(--course-primary);
+      background: #fff;
     }
-    .download-link .icon { color: var(--course-primary); }
-    .download-link .filename { font-weight: 500; flex-grow: 1; }
-    .download-link .action { font-weight: 700; color: var(--course-primary); }
+
+    .download-link .icon {
+      color: var(--course-primary);
+    }
+
+    .download-link .filename {
+      font-weight: 500;
+      flex-grow: 1;
+    }
+
+    .download-link .action {
+      font-weight: 700;
+      color: var(--course-primary);
+    }
 
     /* ====== Playlist Sidebar ====== */
     .playlist-sidebar {
-        background: var(--bg-white);
-        border-radius: var(--radius-lg);
-        box-shadow: var(--shadow);
-        padding: 24px;
-        height: fit-content;
-        position: sticky;
-        top: 32px;
+      background: var(--bg-white);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow);
+      padding: 24px;
+      height: fit-content;
+      position: sticky;
+      top: 32px;
     }
+
     .playlist-sidebar h2 {
-        font-size: 1.5rem;
-        font-weight: 700;
-        margin-bottom: 16px;
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 16px;
     }
+
     .playlist-list {
-        list-style-type: none;
-        max-height: 60vh;
-        overflow-y: auto;
+      list-style-type: none;
+      max-height: 60vh;
+      overflow-y: auto;
     }
+
     .playlist-item a {
-        display: flex;
-        gap: 12px;
-        padding: 12px;
-        border-radius: 10px;
-        margin-bottom: 8px;
-        border: 1px solid transparent;
+      display: flex;
+      gap: 12px;
+      padding: 12px;
+      border-radius: 10px;
+      margin-bottom: 8px;
+      border: 1px solid transparent;
     }
+
     .playlist-item .index {
-        color: var(--text-light);
-        font-weight: 500;
+      color: var(--text-light);
+      font-weight: 500;
     }
+
     .playlist-item .title {
-        font-weight: 500;
+      font-weight: 500;
     }
+
     .playlist-item a:hover {
-        background: var(--bg-light);
+      background: var(--bg-light);
     }
+
     .playlist-item.active a {
-        background: var(--course-primary);
-        color: #fff;
-        border-color: var(--course-primary);
+      background: var(--course-primary);
+      color: #fff;
+      border-color: var(--course-primary);
     }
+
     .playlist-item.active .index {
-        color: rgba(255,255,255,0.7);
+      color: rgba(255, 255, 255, 0.7);
     }
   </style>
 </head>
@@ -197,12 +268,14 @@
     <div class="video-main">
       <div class="video-player-wrapper">
         <!-- کد Embed ویدیوی خود را در اینجا جایگزین کنید -->
-        <iframe src="https://www.aparat.com/video/video/embed/videohash/SAMPLE/vt/frame" allow="autoplay" allowfullscreen="true"></iframe>
+        <iframe src="https://www.aparat.com/video/video/embed/videohash/SAMPLE/vt/frame" allow="autoplay"
+          allowfullscreen="true"></iframe>
       </div>
       <div class="lesson-info">
         <h1>فصل اول: تفکر و تجربه</h1>
-        <p>در این جلسه، با روش‌های علمی و اهمیت تجربه در علوم آشنا می‌شویم. این جلسه پایه و اساس تمام یادگیری‌های آینده شما خواهد بود.</p>
-        
+        <p>در این جلسه، با روش‌های علمی و اهمیت تجربه در علوم آشنا می‌شویم. این جلسه پایه و اساس تمام یادگیری‌های آینده
+          شما خواهد بود.</p>
+
         <div class="downloads">
           <h3>فایل‌های ضمیمه جلسه</h3>
           <a href="/downloads/jozve-01.pdf" class="download-link" download>
@@ -253,4 +326,5 @@
   </main>
 
 </body>
+
 </html>
